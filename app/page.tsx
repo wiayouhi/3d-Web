@@ -102,14 +102,14 @@ const sections = [
 ];
 
 // --- Animation Config ---
-const containerVariants: Variants = {
+const containerVariants =  {
   hidden: { opacity: 0 },
   visible: { opacity: 1, transition: { staggerChildren: 0.1, delayChildren: 0.2 } }
 }; 
 
-const itemVariants: Variants = {
+const itemVariants =  {
   hidden: { x: -30, opacity: 0 },
-  visible: { x: 0, opacity: 1, transition: { type: "spring", stiffness: 60, damping: 12 } }
+  visible: { x: 0, opacity: 1, transition: { type: "spring" as const, stiffness: 60, damping: 12 } }
 };
 
 // Component: Tech Background Lines (Desktop Only) - ตกแต่งเส้นในแต่ละ Section
@@ -524,7 +524,7 @@ export default function Home() {
       </AnimatePresence>
 
       <div className="w-full snap-start relative z-20">
-         <Footer discordServerId="123456789" /> 
+         <Footer/> 
       </div>
     </div>
     
