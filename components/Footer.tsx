@@ -11,7 +11,7 @@ import {
   SunIcon,
   NoSymbolIcon
 } from "@heroicons/react/24/outline";
-import { SiDiscord, SiGithub, SiInstagram } from "@icons-pack/react-simple-icons"; // หรือใช้ icon เดิมก็ได้
+import { SiDiscord, SiGithub, SiInstagram } from "react-icons/si"; // หรือใช้ icon เดิมก็ได้
 import Image from "next/image";
 
 // --- ICONS (ใช้ชุดเดิมของคุณได้เลย หรือจะใช้ lib ก็ได้) ---
@@ -239,4 +239,5 @@ const SocialPill = ({ href, icon, label }: { href: string, icon: any, label: str
         {icon}
         <span>{label}</span>
     </a>
+
 );
