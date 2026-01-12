@@ -108,7 +108,7 @@ const containerVariants = {
 const itemVariants = {
   hidden: { x: -30, opacity: 0 },
   visible: { x: 0, opacity: 1, transition: { type: "spring", stiffness: 60, damping: 12 } }
-}; as const;
+};
 
 // Component: Tech Background Lines (Desktop Only) - ตกแต่งเส้นในแต่ละ Section
 const TechDecoration = () => (
