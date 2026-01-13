@@ -15,10 +15,7 @@
     "@types/three": "^0.182.0",
     "clsx": "^2.1.1",
     "framer-motion": "^12.26.1",
-<<<<<<< HEAD
     "lucide-react": "^0.562.0",
-=======
->>>>>>> 2fe8f0e17381295a5f2ba3a03713653d236c17bb
     "next": "16.1.1",
     "react": "19.2.3",
     "react-dom": "19.2.3",
